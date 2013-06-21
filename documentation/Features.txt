@@ -1,0 +1,54 @@
+Features 
+- Clients under Windows, Linux, MacOS
+- Automatic synchronisation
+- Gracefully handles USB key
+- Gracefully handle local network (sync with the portable when the network share becomes available)
+- A-la-dropbox behavior (see DropBox client)
+- A-la-dropbox conflict handling (create a "Conflict with file")
+- Preview mode (see what will change before synchronizing mode)
+- "Mirror mode" (allow duplicating a folder for backup)
+- Translation
+
+Advanced features
+- Portable mode (Windows only clé USB avec fichier de config à coté)
+- Encryption of data on removable media (each file is symetrically encrypted)
+- A-la-dropbox synchronization, immediately after change (filesystem hook)
+- act like a true dropbox client
+- FTP synchronization
+
+Concurence:
+- http://allwaysync.com/multiassoc.html : solution "pro".
+  - 
+- PeerFolders. Partage d'un dossier sur réseau local. Moche. Ecrit en .NET
+- CryptSync (l'un des deux dossier, celui pour dropbox, est encrypté). Pbl : tu as deux fois les données sur ton disque dur local. Ecrit en MFC. Opensource
+
+
+Technology:
+- Windows : C++
+- Linux : independent backend (.so/.a) + nautilus integration
+- MacOS
+
+The synchronization backend shall be reused between all system (C++?)
+
+
+
+
+
+Marketing feature of Always sync : 
+ - Free for personal use synchronization software. No spyware, adware or malware.
+ - Easy-to-use graphical interface.
+ - Performs true  bi-directional and n-way file and folder synchronization, forget about backup and restore routines.
+ - File modifications and deletions are tracked in a local database. So, Allway Sync knows the true history of your files - no unnecessary questions asked.
+ - Our innovative, proprietary algorithms do not rely on the accuracy of the system clock or network connection quality. So, Allway Sync helps prevents data loss.
+ - Generates a full report of differences between synchronization folders.
+ - Synchronizes folders as well. Allway Sync detects when folders are removed from one device and removes them from any other corresponding synchronization targets.
+ - Supports virtually any file system (FAT, NTFS, SAMBA, Netware, X-Drive, CDFS, UDF and more).
+ - Can be installed on a desktop, laptop, USB stick, external HDD or a U3-enabled device (see details).
+ - Capable of synchronizing more than two folders.
+ - Synchronize data between your desktop PCs and laptops over a network.
+ - A good way to backup and restore files if you run Allway Sync in one-way mode.
+ - Specify independent synchronizarion parameters for any number of sets of folders (multiple jobs).
+ - Transfer documents from one computer to another using an intermediate removable drive.
+ - Or just synchronize with a removable device (USB key, flash drive, CDRW, Zip)  so that you always have your data with you. 
+ - Flexible configuration and customization.
+ - Supports files of any size.
